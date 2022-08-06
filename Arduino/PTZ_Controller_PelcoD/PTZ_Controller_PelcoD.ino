@@ -9,8 +9,7 @@
 //
 
 
-//#include "../../GSiSRIO/SRIO.h"
-#include "c:/Users/ziogu/Documents/Arduino/Arduino/GSiSRIO/SRIO.h"
+#include "../../GSiSRIO/SRIO.h"
 
 GSiSRIO SRIO;
 auto SRIOTimer = millis();
