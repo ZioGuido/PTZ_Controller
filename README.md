@@ -18,3 +18,6 @@ Unfortunately, the camera we're using don't recognize the Zoom speed parameter f
 But for the remaining points, this controller is way better: silent buttons, just one push to select a camera (up to 4 addresses), 
 just one push to recall a preset (up to 6 per camera), and you can vary Pan & Tilt speed while panning or tilting in a very smooth way.
 
+One more thing:
+This project makes use of 74HC595 and 74HC165 shift registers for controlling LEDs and reading button inputs.
+These are serialized and share one common clock line, with the advantage of managing a high number of buttons and LEDs using only 4 pins of the CPU board.
